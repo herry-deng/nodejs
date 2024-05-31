@@ -1,0 +1,58 @@
+>> 本文件内容为 https://ciiom-sit.hsbc.com.hk:443/mauth/api/v2/auth/assert?aid=mobileciiom&did=74d7ebdf-18cd-4c5e-b4af-1b98702877e3&sid=58b9ac25-d391-424c-87c7-58a55a5c44b2&locale=en-US 的请求抓包详情，供您分析和定位问题。
+
+1. 请求内容 Request:
+
+POST /mauth/api/v2/auth/assert?aid=mobileciiom&did=74d7ebdf-18cd-4c5e-b4af-1b98702877e3&sid=58b9ac25-d391-424c-87c7-58a55a5c44b2&locale=en-US HTTP/1.1
+Host: ciiom-sit.hsbc.com.hk:443
+X-HSBC-Locale: en_GB
+Content-Signature: data:MEYCIQDXW08EobA0HGIqLsrK+JiEagpwZL7pGEhdUquBEEm7qgIhAOY6MhHTMwyDM0odKeMJhT/huZdvsXwVC5gWdb+8qY/F;key-id:b818245a9f803e7dac74a0563fd48f1650b871b57d0a72964a3278686bc231cf;scheme:4
+language: en_GB
+User-Agent: CIIOM/3.48.0 (iPhone; iOS 17.4.1; Scale/3.00)
+xHsbcMobileRaspDetails: eyJob29raW5nRnJhbWV3b3JrcyI6IjAiLCJkZWJ1Z2dlckF0dGFjaGVkIjoiMCIsInJvb3RpbmdQcm9iYWJpbGl0eSI6MCwiYXBwbGljYXRpb25SZXBhY2thZ2VkIjoiMCIsInVudHJ1c3RlZFNjcmVlblJlYWRlcnMiOiIwIiwiZW11bGF0b3JSdW5uaW5nIjoiMCIsIm5hdGl2ZUNvZGVIb29rcyI6IjAiLCJ1bnRydXN0ZWRLZXlib2FyZCI6IjAiLCJkZXZpY2VKYWlsQnJva2VuIjoiMCJ9
+useragent: com.hsbc.ciiom.enterprise.hsbcciiom.dev/3.48.0 / iOS 17.4.1; iPhone14,2
+x-hsbc-session-correlation-id: 0NLzh59p
+fraudSessionId: 879958950803564610738548164522
+Cookie: HTTPS-CIIOM-CB-TRANSMIT-WS-443=!0HOHa8Z/6nAa0BuxdsPGax06Ct8tBjSV4lYpcynBqMPT6xoY8F6yefMICIN3hxkr8jPBaudNooWw; ts_hwid=f8ad0ed7-dd96-436a-aebb-e8f6ecd0ae0a; TS01f477b4=0199e0537f955c457ba4dad08b94d8848117157f01231022d40f54037e949c236de3a091d724398befe501053505e6f3a8aae9a542
+ADRUM_1: isMobile:true
+appVersion: 3.48.0
+channel: MOBILE
+X-HSBC-Global-Channel-Id: MOBILE
+X-TS-Client-Version: 6.1.14;[1,2,3,6,7,8,10,11,12,14,28,19]
+countrycode: GB
+groupmembercode: HBEU
+xHsbcMobileAppMetaData: eyJpbXNpU2VyaWFsSUQiOiIiLCJncHNMb2NhdGlvbkVuYWJsZWQiOiIwIiwiYXBwVmVyc2lvbk5hbWUiOiIxMTEyNDEiLCJtb2JpbGVEZXZpY2VQcmludCI6IjAxNDlBREI0MkI4M0NBNDE0RkFBOEU4OTEyRkJDNTU5Q0UiLCJhcHBOYW1lIjoiQ0lJT00iLCJvc1ZlcnNpb24iOiJpT1MgMTcuNC4xIiwic2FuY3Rpb25DaGVjayI6IjAiLCJibHVldG9vdGhDb25uRGV2aWNlcyI6IiIsImJsdWV0b290aERldGVjdGVkTGlzdCI6IiIsIndpZmlTdGF0dXMiOiIwIiwid2lmaUJTU0lEQ29ubmVjdGVkIjoiIiwiYXBwVmVyc2lvbkNvZGUiOiIzLjQ4LjAgKDExMTI0MSkiLCJkZXZpY2VUeXBlIjoiaVBob25lMTcuNC4xIiwiZ3BzTG9uZ0xhdCI6MCwiZGF0YU5ldHdvcmtOYW1lIjoiLS0iLCJtY2MiOiI2NTUzNSIsIndpZmlOZXR3b3Jrc0luUmFuZ2UiOiIiLCJsb2NhdGlvbiI6IkNpdHkiLCJncHNMb25nTG9uZyI6MCwidGltZVpvbmUiOjgsImJsdWV0b290aEVuYWJsZWQiOiIwIiwiZGF0YUVuYWJsZWQiOiIwIn0=
+requestcorrelationid: LvDF3iOa
+X-HSBC-Channel-Id: MOBILE
+lineOfBusiness: rbwm
+e2ealgorithm: SHA256
+X-HSBC-MAC-Address: 49ADB42B-83CA-414F-AA8E-8912FBC559CE
+Content-Length: 330
+Connection: keep-alive
+Authorization: TSToken d881be66-3cf6-48d7-ac5e-5c32fede5983; tid=mobileciiom_token
+Accept-Language: zh-Hans-CN;q=1, en-CN;q=0.9
+ADRUM: isAjax:true
+Accept: */*
+Content-Type: application/json
+Accept-Encoding: gzip, deflate, br
+
+{"headers":[{"type":"flow_id","flow_id":"e0010397632657bc75b47e3085dec903f48307c173dd28f0ea1de33978fe1630"},{"type":"uid","uid":"IB1103640348"}],"data":{"action":"authentication","assert":"authenticate","assertion_id":"pF9GiHhcgVjVMb4YfRCu1/nK","fch":"atL+zPofQ+0Cwez6VXOgnNM+","data":{"password":"foobar12"},"method":"password"}}
+
+2. 响应内容 Response:
+
+HTTP/1.1 401 Unauthorized
+Date: Fri, 31 May 2024 03:43:09 GMT
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=16070400; includeSubDomains
+Pragma: no-cache
+Cache-Control: no-cache, must-revalidate, no-store
+Content-Type: application/json
+Content-Length: 510
+S: reverseproxy-hkg1vl0867
+X-Content-Type-Options: nosniff
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{"error_code":4001,"error_message":"Session rejected 'a7e6a6d3-ba97-44ca-82db-849f062ccdf9'","data":{"data":null,"rejection_data":{"text":"NoMobileNumber","button_text":"Exit","type":"reject","title":"NoMobileNumber"},"state":"rejected","text":"NoMobileNumber","button_text":"Exit","type":"reject","title":"NoMobileNumber","assertions_complete":false,"failure_data":{"source":{"action_type":"reject","type":"action"},"reason":{"type":"assertion_rejected","data":{"mobileNumberPresent":"false"}}}},"headers":[]}
+
+====
+该记录由 Stream 抓取，仅用于分析和学习，可 AppStore 搜索『抓包』下载，面向开发者永久免费使用。
